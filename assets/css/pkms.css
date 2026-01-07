@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f3;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #7d2f2f;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Pokémon principal */
+.pokemon-main {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.pokemon-image img {
+    width: 280px;
+}
+
+.pokemon-info h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.type {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.grass {
+    background-color: #7d2f2f;
+}
+
+.pokedex {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Evoluções */
+.evolutions h2,
+.sprites h2 {
+    margin-bottom: 20px;
+}
+
+.evolution-line {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.evo-card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.evo-card img {
+    width: 100px;
+}
+
+.arrow {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Sprites */
+.sprite-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.sprite-card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.sprite-card img {
+    width: 80px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ddd;
+    margin-top: 40px;
+}
