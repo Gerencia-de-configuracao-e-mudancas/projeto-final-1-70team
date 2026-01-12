@@ -72,6 +72,10 @@ body {
     background-color: #7d2f2f;
 }
 
+.water {
+    background-color: rgb(78, 78, 255);
+}
+
 .pokedex {
     background-color: #ffffff;
     padding: 15px;
