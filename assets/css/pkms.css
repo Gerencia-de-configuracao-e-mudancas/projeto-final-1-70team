@@ -82,6 +82,62 @@ body {
     border-radius: 8px;
 }
 
+.stats {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.stat {
+    margin-bottom: 12px;
+}
+
+.stat span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.bar {
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 16px;
+}
+
+.bar div {
+    height: 100%;
+    background-color: rgb(245, 97, 39);
+}
+
+
+.weaknesses {
+    margin-bottom: 40px;
+}
+
+.weakness-list {
+    display: flex;
+    gap: 10px;
+}
+
+.weakness {
+    padding: 8px 14px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.weakness.water { background-color: #4a90e2; }
+.weakness.rock { background-color: #a38c21; }
+.weakness.fogo { background-color: #f50606; }
+.weakness.gelo { background-color: #11d4f7; }
+.weakness.fly { background-color: #cee7dd; }
+.weakness.psy { background-color: #e920ad; }
+.weakness.ground { background-color: #8b5a2b; }
+.weakness.ele { background-color: #fffb05de; }
+.weakness.grama { background-color: #2e8f07; }
+
 /* Evoluções */
 .evolutions h2,
 .sprites h2 {
