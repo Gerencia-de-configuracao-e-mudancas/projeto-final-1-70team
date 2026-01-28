@@ -191,3 +191,61 @@ footer {
     background-color: #ddd;
     margin-top: 40px;
 }
+
+
+
+.pokemon-main {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.pokemon-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tablet e celular */
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .pokemon-main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .weakness-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .evolution-line {
+        flex-direction: column;
+    }
+
+    .arrow {
+        transform: rotate(90deg);
+    }
+
+    .sprite-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Celular pequeno */
+@media (max-width: 480px) {
+
+    .sprite-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pokemon-image img {
+        width: 220px;
+    }
+}
