@@ -159,6 +159,7 @@ body {
 
 .evo-card img {
     width: 100px;
+    height: 100px;
 }
 
 .arrow {
@@ -248,4 +249,41 @@ footer {
     .pokemon-image img {
         width: 220px;
     }
+}
+/* animação base */
+.page {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+/* entra da esquerda */
+.slide-in {
+  animation-name: slideIn;
+}
+
+/* sai para a direita */
+.slide-out {
+  animation-name: slideOut;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
 }
