@@ -3,7 +3,7 @@
 # Trabalho de Git – Wiki iniciais de kanto
 
 ## Objetivo do Repositório
-Apresentar e organizar informações visuais e descritivas sobre os Pokémon iniciais da região de Kanto, incluindo nome, tipo, descrição, imagens dos Pokémon base, suas evoluções e sprites dos jogos, como exercício prático de uso do Git e do GitHub.
+Apresentar e organizar informações visuais e descritivas sobre os Pokémon iniciais da região de Kanto, incluindo nome, tipo, descrição da pokedéx, fraquezas, status, imagens dos Pokémon base, suas evoluções e sprites dos jogos, como exercício prático de uso do Git e do GitHub.
 
 ## contribuidores
 - https://github.com/danylorodrigues
